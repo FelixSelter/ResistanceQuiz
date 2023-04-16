@@ -1,0 +1,61 @@
+.circuit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.positiveCharge {
+  min-width: 30px;
+  min-height: 30px;
+  background-color: blue;
+}
+
+.negativeCharge {
+  min-width: 30px;
+  min-height: 30px;
+  background-color: red;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  position: relative;
+  max-width: 500px;
+  height: 100vh;
+  top: 30vh;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+
+.number {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.number > input {
+  font-size: 20pt;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkbox > input {
+  height: 30px;
+  width: 30px;
+}
+
+.form > label {
+  font-size: 20pt;
+}
+
+.form > button {
+  font-size: 20pt;
+}

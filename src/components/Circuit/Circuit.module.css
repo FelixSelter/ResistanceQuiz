@@ -1,0 +1,36 @@
+.outline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  padding: 5px 0px 5px 0px;
+}
+
+.outline.highlight {
+  border: 8px solid;
+}
+
+.serial {
+  display: flex;
+  flex-direction: row;
+}
+
+.parallel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  border: 5px solid black;
+}
+
+.wire {
+  flex-grow: 1;
+  min-width: 25px;
+  height: 4px;
+
+  background-color: black;
+}
+
+.simplified.highlight {
+  background-color: lightblue;
+}
